@@ -1,0 +1,17 @@
+[project]
+name = "studies"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "torchvision",
+    "matplotlib",
+    "numpy<2",
+    "tqdm",
+    "ruff",
+]
+
+[tool.uv]
+required-environments = [
+    "sys_platform == 'darwin' and platform_machine == 'x86_64'",
+]
