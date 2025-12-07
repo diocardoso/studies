@@ -19,7 +19,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Load MNIST dataset path from environment variable
 MNIST_DATASET_PATH = Path(os.environ.get("MNIST_DATASET_PATH"))
 
 

@@ -4,7 +4,6 @@ from pathlib import Path
 
 import torch
 from torch.utils.data import DataLoader, TensorDataset
-from tqdm import tqdm
 
 from deep_learning.handwritten_digit_classification.nn import NNet
 from deep_learning.handwritten_digit_classification.preprocess import (

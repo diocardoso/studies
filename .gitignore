@@ -206,6 +206,15 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# MNIST Dataset
+# Datasets
 deep_learning/handwritten_digit_classification/mnist/
+deep_learning/fine_tuning_BERT/twitter_sentiment_analysis/
+
+# MLFlow
+deep_learning/fine_tuning_BERT/mlflow.db
+deep_learning/fine_tuning_BERT/sentiment-model/
+
+# Models
 *.pth
+
+

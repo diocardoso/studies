@@ -9,6 +9,11 @@ dependencies = [
     "numpy<2",
     "tqdm",
     "ruff",
+    "transformers",
+    "accelerate",
+    "evaluate",
+    "polars",
+    "mlflow",
 ]
 
 [tool.uv]
