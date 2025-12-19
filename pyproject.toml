@@ -14,6 +14,7 @@ dependencies = [
     "evaluate",
     "polars",
     "mlflow",
+    "hydra-core",
 ]
 
 [tool.uv]

@@ -1,0 +1,8 @@
+vocab_size: 30522
+num_labels: 11
+num_classes: 4
+seq_len: 128
+dim: 512
+heads: 8
+layers: 6
+dropout: 0.2
